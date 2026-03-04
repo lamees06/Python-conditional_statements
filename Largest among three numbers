@@ -1,0 +1,9 @@
+a=int(input("Enter num1: "))
+b=int(input("Enter num2: "))
+c=int(input("Enter num3: "))
+if(a>b and a>c):
+   print "a is large"
+elif(b>c and b>a):
+   print "b is large"
+else:
+   print "c is large"
